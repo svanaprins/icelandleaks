@@ -1,47 +1,34 @@
-# 🤝 Contributing to **IcelandLeaks**
+# 📜 Code of Conduct
 
-We welcome contributions to expose the truth. Follow these guidelines to contribute safely and effectively.
-
----
-## **📌 How to Contribute**
-### **1. Reporting Leaks/Data**
-- **Do NOT post sensitive/illegal data.**
-- Submit via:
-  - Encrypted email (preferred).
-  - GitHub Issues (for non-sensitive tips).
-- Include: Source (if public), context/description, category.
-
-### **2. Code Contributions**
-- Fork the repo and create a **new branch** (`git checkout -b feature/your-feature`).
-- Focus on: New data sources, UI/UX improvements, security hardening.
-- Test your changes on iOS/Android.
-
-### **3. Pull Requests (PRs)**
-- Reference the issue in your PR description.
-- Avoid hardcoding sensitive data.
-- Use environment variables for API keys/secrets.
+## **Our Pledge**
+This repository is dedicated to **factual, ethical, and legal** documentation.
 
 ---
-## **🛠️ Development Setup**
-1. Clone the repo: `git clone https://github.com/svanaprins/icelandleaks.git`
-2. Install Flutter: `flutter pub get`
-3. Run the app: `flutter run`
+## **Core Principles**
+1. **Facts Only:** No opinions, theories, or speculation.
+2. **No Doxxing:** Never post unredacted personal information.
+3. **Legal Compliance:** Only public records and legally obtained documents.
+4. **Respect:** Treat all contributors and subjects with dignity.
 
 ---
-## **📜 Code Style**
-- Dart: Follow [Dart Style Guide](https://dart.dev/guides/language/effective-dart/style).
-- Commits: Use [Conventional Commits](https://www.conventionalcommits.org/).
+## **Acceptable Contributions**
+✅ Public court documents, published news articles, official reports, verifiable timelines, redacted personal information.
 
 ---
-## **⚠️ Ethical Guidelines**
-- **Do:** Verify data, redact personal info, cite sources.
-- **Don’t:** Post illegal or unredacted private data, dox individuals.
+## **Unacceptable Contributions**
+❌ Illegal/leaked private data, unredacted personal info, opinions/theories, defamatory content, copyrighted material.
 
 ---
-## **✅ PR Checklist**
-- [ ] Code works on iOS/Android.
-- [ ] No hardcoded secrets.
-- [ ] Data sources are ethical/legal.
+## **Enforcement**
+Violations will result in immediate PR rejection and potential ban. Legal violations will be reported.
 
 ---
-**Questions?** Open an issue or DM [@eljagrimur](https://x.com/eljagrimur).
+## **Reporting Violations**
+Do NOT engage. Report via confidential issue or encrypted email.
+
+---
+## **Attribution**
+Inspired by [Contributor Covenant](https://www.contributor-covenant.org).
+
+---
+**The truth is not a crime. But hiding it is.**
