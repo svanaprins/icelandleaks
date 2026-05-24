@@ -1,112 +1,75 @@
-# Flutter
+# 🇮🇸 **ICELEAKS**
+*Dart-based truth engine for Iceland's hidden data.*
 
-A modern Flutter-based mobile application utilizing the latest mobile development technologies and tools for building responsive cross-platform applications.
+---
+### **🔍 What It Does**
+A **Flutter/Dart** app designed to **aggregate, analyze, and expose** hard-to-find data about Iceland.
+From leaks to public records—**no stone unturned.**
 
-## 📋 Prerequisites
+---
+### **🛠️ Tech Stack**
+- **Language:** Dart (Flutter)
+- **Platform:** Cross-platform (iOS/Android/Web)
+- **Features:** Real-time updates, offline caching, secure data handling
+- **UI:** Cyberpunk-inspired, dark mode by default
 
-- Flutter SDK (^3.29.2)
-- Dart SDK
-- Android Studio / VS Code with Flutter extensions
-- Android SDK / Xcode (for iOS development)
+---
+### **🚀 Quick Start**
+1. **Clone:**
+   ```bash
+   git clone https://github.com/svanaprins/icelandleaks.git
+   cd icelandleaks
+   ```
+2. **Install:**
+   ```bash
+   flutter pub get
+   ```
+3. **Run:**
+   ```bash
+   flutter run
+   ```
 
-## 🛠️ Installation
+---
+### **🎯 Core Features**
+- **Data Aggregation:** Pulls from APIs, web scrapes, and user submissions.
+- **Search & Filter:** Find exactly what you need, fast.
+- **Secure:** Encrypted local storage for sensitive data.
+- **Offline Mode:** Works even when the internet doesn't.
 
-1. Install dependencies:
-```bash
-flutter pub get
+---
+### **📱 Screenshots**
+*(Add these later via `/screenshots` folder)*
+- Dark mode UI
+- Data visualization dashboards
+- Secure login/anonymous browsing
+
+---
+### **🔧 Project Structure**
+```
+lib/
+├── core/               # Core logic, data models
+├── presentation/       # UI screens/widgets
+├── services/           # API, scraping, storage
+├── theme/              # Cyberpunk/dark theme
+└── main.dart           # App entry
 ```
 
-2. Run the application:
-```bash
-flutter run
-```
+---
+### **🤝 Contribute**
+- **Found a leak?** Submit via [issues](https://github.com/svanaprins/icelandleaks/issues).
+- **Want to help?** Open a PR. Focus on:
+  - New data sources
+  - UI/UX improvements
+  - Security hardening
 
-## 📁 Project Structure
+---
+### **📜 License**
+[MIT](https://github.com/svanaprins/icelandleaks/blob/main/LICENSE) – Freedom to fork, modify, deploy.
 
-```
-flutter_app/
-├── android/            # Android-specific configuration
-├── ios/                # iOS-specific configuration
-├── lib/
-│   ├── core/           # Core utilities and services
-│   │   └── utils/      # Utility classes
-│   ├── presentation/   # UI screens and widgets
-│   │   └── splash_screen/ # Splash screen implementation
-│   ├── routes/         # Application routing
-│   ├── theme/          # Theme configuration
-│   ├── widgets/        # Reusable UI components
-│   └── main.dart       # Application entry point
-├── assets/             # Static assets (images, fonts, etc.)
-├── pubspec.yaml        # Project dependencies and configuration
-└── README.md           # Project documentation
-```
+---
+### **⚠️ Disclaimer**
+For **educational and journalistic purposes only.**
+Respect privacy laws and terms of service.
 
-## 🧩 Adding Routes
-
-To add new routes to the application, update the `lib/routes/app_routes.dart` file:
-
-```dart
-import 'package:flutter/material.dart';
-import 'package:package_name/presentation/home_screen/home_screen.dart';
-
-class AppRoutes {
-  static const String initial = '/';
-  static const String home = '/home';
-
-  static Map<String, WidgetBuilder> routes = {
-    initial: (context) => const SplashScreen(),
-    home: (context) => const HomeScreen(),
-    // Add more routes as needed
-  }
-}
-```
-
-## 🎨 Theming
-
-This project includes a comprehensive theming system with both light and dark themes:
-
-```dart
-// Access the current theme
-ThemeData theme = Theme.of(context);
-
-// Use theme colors
-Color primaryColor = theme.colorScheme.primary;
-```
-
-The theme configuration includes:
-- Color schemes for light and dark modes
-- Typography styles
-- Button themes
-- Input decoration themes
-- Card and dialog themes
-
-## 📱 Responsive Design
-
-The app is built with responsive design using the Sizer package:
-
-```dart
-// Example of responsive sizing
-Container(
-  width: 50.w, // 50% of screen width
-  height: 20.h, // 20% of screen height
-  child: Text('Responsive Container'),
-)
-```
-## 📦 Deployment
-
-Build the application for production:
-
-```bash
-# For Android
-flutter build apk --release
-
-# For iOS
-flutter build ios --release
-```
-
-## 🙏 Acknowledgments
-- Built with [Rocket.new](https://rocket.new)
-- Powered by [Flutter](https://flutter.dev) & [Dart](https://dart.dev)
-- Styled with Material Design
-
-Built with ❤️ on Rocket.new
+---
+**Built by [@svanaprins](https://github.com/svanaprins)** | **Truth doesn't hide forever.**
